@@ -1,7 +1,7 @@
 <?php
 function controleurPrincipal($action){
     $lesActions = array();
-    $lesActions["defaut"] = "inscription.php";
+    $lesActions["inscription"] = "inscription.php";
     $lesActions["programme"] = "programme.php";
     $lesActions["choixconferences"] = "choixconferences.php";
     $lesActions["deconnexion"] = "deconnexion.php";
