@@ -12,7 +12,7 @@ function controleurPrincipal($action){
         return $lesActions[$action];
     }
     else{
-        return $lesActions["defaut"];
+        return $lesActions["programme"];
     }
 
 }
